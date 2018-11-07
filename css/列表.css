@@ -1,0 +1,269 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "楷体";
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.logo{
+	width: 100%;
+	height: 120px;
+	background: url(../img/beader_bg.jpg);
+	
+}
+.logo-center{
+	width: 1100px;
+	height: 120px;
+	margin: 0 auto;
+	/* background: red; */
+}
+.logo-left1{
+	float: left;
+}
+.logo-kuang{
+	width: auto;
+	height: auto;
+	float: right;
+	/* background: yellow; */
+	margin-top: 30px;
+}
+.logo_text{
+	width: 100px;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+	text-align:center;
+}
+.logo_text a{
+	color: white;
+}
+.logo_text img{
+	vertical-align: middle;
+	margin-top: 5px;
+}
+.xiala{
+	width: 150px;
+	height: auto;
+	line-height: 30px;
+	text-align: left;
+	display: none;
+	background-color: #302044;
+	padding: 0 10px;
+	color: white;
+	position: relative;
+	z-index: 9;
+}
+.xiala p a{
+	display: block;
+	width: auto;
+}
+/* logo */
+
+/* text */
+.text{
+	width: 100%;
+	height: auto;
+	background: #f1f2f6;
+	overflow: hidden;
+}
+.text-center{
+	width: 1050px;
+	height: 1300px;
+	/* background: yellow; */
+	overflow: hidden;
+	margin: 0 auto;
+}
+.text-top{
+	width: 200px;
+	height: 100px;
+	/* background: red; */
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.text-top1 img{
+	width: 700px;
+}
+.text-top1{
+	width: 750px;
+	/* background: red; */
+	margin: 0 auto;
+	position: relative;
+}
+.text-top1 i img{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: -18px;
+	right: 10px;
+}
+.text-top2{
+	width: 800px;
+	height: 800px;
+	/* background: blue; */
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.kuai{
+	width: 350px;
+	height: 130px;
+	padding: 20px 10px;
+	background: white;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.kuai-tu{
+	float: left;
+}
+.kuai-tu img{
+	width: 170px;
+	height: 130px;
+}
+.zuix{
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+/* footer */
+/* .map{
+	width: 100%;
+	height: 658px;
+	background:url(../img/map_02.png) ;
+	background-size: 100% 100%;
+	position: relative;
+	top: -35px;
+} */
+
+
+.foot{
+	width: 100%;
+	height: 348px;
+	background: url(../img/yinyue_bg.jpg);
+	background-size: 100% 100%;
+	position: absolute;
+	/* bottom: -1257px; */
+	/* z-index: -2; */
+	
+}
+.foot-con{
+	width: 1105px;
+	height: 348px;
+	margin: auto;
+
+	overflow: hidden;
+	position: relative;
+}
+.duo{
+	width: 549px;
+	height: 57px;
+
+	margin: 170px auto;
+}
+.duoo{
+	width: 57px;
+	height: 57px;
+	border-radius: 50%;
+	float: left;
+	
+}
+.du1{
+	background: url(../img/yinyue_duo.png);
+	background-position: 0px -57px;
+}
+.du2{
+	background: url(../img/yinyue_lai.png);
+	background-position: 0px -57px;
+	margin-left: 25px;
+	
+}
+.du3{
+	background: url(../img/yinyue_mi.png);
+	background-position: 0px -57px;
+	margin-left: 25px;
+	
+}
+.du4{
+	background: url(../img/yinyue_fa.png);
+	background-position: 0px -57px;
+	margin-left: 25px;
+	
+}
+.du5{
+	background: url(../img/yinyue_suo.png);
+	background-position: 0px -57px;
+	margin-left: 25px;
+	
+}
+.du6{
+	background: url(../img/yinyue_la.png);
+	background-position: 0px -57px;
+	margin-left: 25px;
+	
+}
+.du7{
+	background: url(../img/yinyue_xi.png);
+	background-position: 0px -57px;
+	margin-left: 25px;
+	
+}
+.footcir{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 2px solid #d2d2d2;
+	position: absolute;
+	top: 79px;
+	right: 137px;
+	background: white;
+	text-align: center;
+	line-height: 50px;
+	
+}
+.icup{
+	display: block;
+	color: #d2d2d2;
+	
+}
+.pic235{
+	display: block;
+	position: absolute;
+	width: 235px;
+	height: 87px;
+	top: 156px;
+	right: 122px;
+}
+.lineline{
+	
+	position: relative;
+	top: -100px;
+	width: 100%;
+	height: 2px;
+	border-top: 2px dashed #938b9d;
+	
+	
+}
+.lineline p{
+	color: white;
+	font-size: 17px;
+     font-family: "楷体";
+     text-align: center;
+     margin-top: 10px;
+}
+/*联系我们结束*/
+.mapp{
+	width: 1050px;
+	height: 31px;
+	margin: -31px auto;
+	background:url(../img/map_topimg.png);
+}
+.wen{
+	width: 100%;
+	height: 35px;
+	margin: -1px auto;
+	background:url(../img/map_bottomimg.png) no-repeat center center;
+}

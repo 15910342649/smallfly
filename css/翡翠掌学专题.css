@@ -1,0 +1,466 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: '楷体';
+}
+.pageone{
+	text-align: center;
+	background-color: #221236;
+}
+.pagetwo{
+	background-color: #fff;
+}
+.screen-banner {
+	overflow: hidden;
+	position: relative;
+}
+
+.all-screen {
+	top: 0;
+	position: absolute;
+	transition: top 0.5s;
+}
+.screen-one{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.header {
+	width: 100%;
+	height: 50px;
+	background-color: #38284c;
+	background: url(../img/header_bg.jpg);
+	position: fixed;
+	top: 0;
+}
+
+.logo {
+	height: 50px;
+	float: left;
+}
+
+.inner {
+	width: 985px;
+	margin: 0 auto;
+}
+
+.inner2 {
+	width: 1062px;
+	margin: 0 auto;
+}
+
+.header ul {
+	margin-left: 50px;
+}
+
+.navli {
+	display: inline-block;
+	line-height: 50px;
+	height: 50px;
+	margin-right: 33px;
+	font-size: 14px;
+	text-align: center;
+	position: relative;
+	font-family: '楷体';
+}
+
+.navli a {
+	color: #d1cfd4;
+}
+
+.navli .zong {
+	color: white;
+	margin-left: 50px;
+}
+
+.navli a:hover {
+	color: white;
+}
+
+.header li img {
+	padding-left: 5px;
+}
+
+.wrap-one {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+	/* transform: scale(0.8); */
+	width: 100%;
+	height: 100%;
+}
+
+.title .intro1 {
+	font-size: 34px;
+	color: #ebeaec;
+}
+
+.title .intro2 {
+	color: #ebeaec;
+}
+
+.zhangxue {
+	margin-left: -45px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	width: 260px;
+	height: 260px;
+}
+.one-cont{
+	transform: scale(0.8);
+}
+.learning span {
+	color: #fefefe;
+	font-size: 40px;
+}
+
+.learning {
+	margin-top: 20px;
+}
+
+.yinhaozuo {
+	margin-bottom: 20px;
+}
+
+.yinhaoyou {
+	margin-top: 28px;
+	vertical-align: top;
+	margin-bottom: 40px;
+}
+
+.learning p {
+	color: #ebeaec;
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+
+.zhang7 {
+	margin-top: 100px;
+}
+
+
+
+.bigtitle {
+	color: #311859;
+	font-size: 35px;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+
+.original {
+	width: 650px;
+	height: 90px;
+	margin: 0 auto;
+}
+.jiazai{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0;
+	background-color: #299ad6;
+	z-index: 99;
+}
+.jiazai{
+	text-align: center;
+}
+.jiazai .one-cont{
+	text-align: center;
+	margin-top: -100px;
+}
+.niao{
+	margin-left: 190px;
+	margin-bottom: 50px;
+}
+.two-you{
+	vertical-align: top;
+	/* margin-top: 30px; */
+	float: right;
+}
+.two-zuo{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.original p{
+	text-indent: 2em;
+	color: #6b6a6f;
+	font-size: 15px;
+}
+.app li{
+display: inline-block;
+margin-right: 40px;
+/* text-align: center; */
+}
+.app li:first-child{
+	margin-left: 37px;
+}
+.goleft{
+	width: 58px;
+	height: 58px;
+	background: url(../img/aboutxiaoniao/goleft.png);
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	margin-top: -29px;
+}
+.pagetwo {
+	position: relative;
+	overflow: hidden;
+}
+.pagetwo .inner{
+	overflow: hidden;
+}
+.goright{
+	width: 58px;
+	height: 58px;
+	background: url(../img/aboutxiaoniao/goright.png);
+	background-position: -58px 0px;
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	margin-top: -29px;
+}
+.tab-two{
+	/* background: darkblue; */
+	width: 985px;
+	height: 900px;
+	float: left;
+	text-align: center;
+}
+.tab-three{
+	width: 980px;
+	height: 900px;
+	float: left;
+	text-align: center;
+}
+.tab-one{
+	float: left;
+
+}
+.tabinner{
+	width: 2955px;
+}
+.group1 p:first-of-type{
+	color: #56575c;
+	font-size: 21px;
+	line-height: 68px;
+	text-align: left;
+
+}
+.group1 p:last-of-type{
+	color: #9a9ca1;
+	font-size: 14px;
+	margin-top: -15px;
+	text-align: left;
+
+}
+.group1 img{
+	float: left;
+	margin-right: 50px;
+}
+.group1{
+	width: 500px;
+	height: 95px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.titleside img:nth-child(2){
+	float: left;
+	margin: 0px 10px;
+}
+.titleside img:first-child{
+	float: left;
+	margin-top: 20px;
+}
+.titleside img:nth-child(3){
+	float: right;
+	margin-top: 20px;
+	transform: rotateY(180deg);
+
+}
+.titleside{
+	width: 480px;
+	height: 37px;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+.pagethree{
+	background-color: #221236;
+}
+.pagethree .bigtitle{
+	color: white;
+}
+.learning2 p{
+	font-size: 18px;
+	color:#989495;
+	width: 750px;
+	line-height: 28px;
+	margin: 50px auto;
+	text-indent: 2em;
+	text-align: left;
+}
+.container{
+	width: 970px;
+	height: 370px;
+	margin: 100px auto;
+	position: relative;
+}
+.container img{
+	position: absolute;
+}
+.container img:nth-child(1){
+	top: 0;
+	left: 0;
+}
+.container img:nth-child(2){
+	top: 0;
+	right: 0;
+}
+.container img:nth-child(3){
+	bottom: 0;
+	left: 0;
+}
+.container img:nth-child(4){
+	bottom: 0;
+	right: 0;
+}
+.jiazhi_box{
+	margin: 25px 40px;
+	float: left;
+	width: 380px;
+	height: 75px;
+	color: #fff;
+}
+.jiazhi_box:nth-child(2n-1){
+	margin-left: 75px;
+}
+.jiazhi_no{
+	background: url(../img/aboutxiaoniao/jiazhi_quanquan.png) no-repeat;
+	width: 74px;
+	height: 74px;
+	text-align: center;
+	line-height: 74px;
+	font-size: 18px;
+	float: left;
+}
+.jiazhi_box p{
+	width: 280px;
+	line-height: 25px;
+	font-size: 17px;
+	float: left;
+	margin:20px 0 0 20px ;
+}
+.letter-tab1{
+	width:888px;
+	margin: 50px auto;
+	display: none;
+	
+}
+.letter-tab11{
+	display: block;
+}
+.letter-tab1 p{
+	border-bottom: 1px dotted #C5C5C9;
+	color: #848387;
+	line-height: 40px;
+	font-size: 16px;
+}
+.part-one{
+	text-indent: 2em;
+}
+.btn{
+	width: 78px;
+	height: 12px;
+	background-color: gray;
+	display: inline-block;
+	margin: 20px 20px;
+	border-radius: 12px;
+	text-align: center;
+	
+}
+.btns{
+	position: absolute;
+    bottom: 80px;
+	left: 50%;
+	margin-left: -150px;
+	width: 300px;
+}
+.pagefour{
+	position: relative;
+}
+.btn1{
+	background-color: blue;
+}
+.pagefive{
+	background: url(../img/aboutxiaoniao/app&contacts_bg.gif) no-repeat center top;
+}
+.download{
+	font-family: "宋体";	
+}
+.code{
+	width: 375px;
+	height: 375px;
+	margin: 125px 0 0 115px;
+	position: relative;
+	float: left;
+}
+.code img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.code span{
+	top: 0;
+	left: 80px;
+	position: absolute;
+	color: #fff;
+	font-size: 18px;
+}
+.page5 h1{
+	float: left;
+	font-size:42px ;
+	color: #fff;
+	font-weight: normal;
+	margin: 245px 0 0 87px;
+}
+.contact_box{
+	float: right;
+	margin-right: 90px;
+	width: 450px;
+}
+.contact_box h5{
+	font-size: 22px;
+	line-height: 60px;
+	width: 380px;
+	border-bottom: 1px dashed #E0E0E2;
+	position: relative;
+	margin-bottom: 15px;
+}
+.contact_box h5 i{
+	width: 6px;
+    height: 6px;
+    display: block;
+    background: url(../img/next&prev_now.png) no-repeat;
+    position: absolute;
+    bottom: -4px;
+    right: 0;
+}
+.contact_box p{
+	font-size: 17px;
+	line-height: 40px;
+}
+.inner-five{
+	width: 1075px;
+	margin: 0 auto;
+}
